@@ -13,6 +13,7 @@
    此处配置请自行修改   
 # Use   
 ### write in your controller
+//setParam($subject="test",$total_amount =  "0.01",$body= "购买测试商品0.01元",$timeout_express = "1m")   
 $alipay = Pay::alipay();   
 $content = $alipay->setParam()->toPay();   
 echo $content;   
