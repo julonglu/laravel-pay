@@ -32,5 +32,8 @@ return [
       //支付宝公钥,查看地址：https://openhome.alipay.com/platform/keyManage.htm 对应APPID下的支付宝公钥。
       'alipay_public_key' => file_get_contents("/data/JULONG/JLSERVER/config/key/zfb_public_key.pem"),
 
-  ]
+  ],
+    'wechat'=>[
+
+    ]
 ];

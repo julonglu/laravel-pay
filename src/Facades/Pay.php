@@ -1,5 +1,5 @@
 <?php
-namespace Julong\Pay\Alipay\Facades;
+namespace Julong\LaravelPay\Facades;
 use Illuminate\Support\Facades\Facade;
 class Pay extends Facade
 {
