@@ -17,7 +17,7 @@
     "require": {
         "php": ">=7.0.0",
         "illuminate/support": "^5.1",
-        "julong/laravel-pay": "^1.0.1"
+        "julong/pay": "^1.0.1"
     },
     "support": {
         "source": "https://github.com/julonglu/laravel-pay"
