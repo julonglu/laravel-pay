@@ -9,7 +9,9 @@
   'pay' => Julong\Laravel\Facades\pay::class ,
 ### providers  
    \Julong\LaravelPay\PayServiceProvider::class , 
-# Use   
+## edit config/pay.php  
+   此处配置请自行修改   
+# Use   
 ### write in your controller
 $alipay = Pay::alipay();   
 $content = $alipay->setParam()->toPay();   
