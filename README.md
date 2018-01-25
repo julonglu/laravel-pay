@@ -1,8 +1,8 @@
 "# laravel-pay" 
 # install  
-## composer require julong/pay   
-## composer require julong/laravel-pay  
-## php artisan vendor:publish  
+ composer require julong/pay   
+ composer require julong/laravel-pay  
+ php artisan vendor:publish  
 # config  
 ## edit config/app.php  
 ### add aliases   
