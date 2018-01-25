@@ -1,6 +1,6 @@
 {
     "name": "julong/laravel-pay",
-    "description": "pay library",//PHP库描述
+    "description": "pay library",
     "license": "MIT",
     "authors": [
         {
