@@ -19,20 +19,20 @@
     $content = $alipay->setParam()->toPay();   
     echo $content;   
 ## return_url    
-### 用法   
+### use   
     $alipay = Pay::alipay();   
     $res = $alipay->returnUrl();   
-### 返回   
+### return   
       return [
           'out_trade_no'=>'',//商户订单号
           'trade_no'=>'',//支付宝交易号
           ];
 
 ## notify_url    
-### 用法   
+### use   
     $alipay = Pay::alipay();   
     $res = $alipay->checkSyncPay();   
-### 返回     
+### return     
      return [  
           'out_trade_no'=>'',//商户订单号  
           'trade_no'=>'',//支付宝交易号  
