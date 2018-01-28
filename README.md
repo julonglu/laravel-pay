@@ -18,7 +18,7 @@
     $alipay = Pay::alipay();   
     $content = $alipay->setParam()->toPay();   
     echo $content;   
-## 同步跳转    
+## return_url    
 ### 用法   
     $alipay = Pay::alipay();   
     $res = $alipay->returnUrl();   
@@ -28,7 +28,7 @@
           'trade_no'=>'',//支付宝交易号
           ];
 
-## 异步验证    
+## notify_url    
 ### 用法   
     $alipay = Pay::alipay();   
     $res = $alipay->checkSyncPay();   
