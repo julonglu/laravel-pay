@@ -6,7 +6,7 @@
 # config  
 ## edit config/app.php  
 ### add aliases   
-    'pay' => Julong\Laravel\Facades\pay::class ,
+    'pay' => Julong\LaravelPay\Facades\pay::class ,
 ### providers  
     \Julong\LaravelPay\PayServiceProvider::class , 
 ## edit config/pay.php  
