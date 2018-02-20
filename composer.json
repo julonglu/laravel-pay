@@ -16,7 +16,7 @@
     },
     "require": {
         "php": ">=7.0.0",
-        "illuminate/support": "5.*",
+        "laravel/framework": "5.*",
         "julong/pay": "1.*"
     },
     "support": {
