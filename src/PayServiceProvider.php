@@ -29,7 +29,7 @@ class PayServiceProvider extends ServiceProvider
             return Pay::alipay(config('pay.alipay'));
         });
         $this->app->singleton('pay.wechatpay', function () {
-            return Pay::wechatpay(config('pay.wechat'));
+            return Pay::wechatpay(config('pay.wechatpay'));
         });
     }
 
