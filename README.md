@@ -39,7 +39,7 @@
           'trade_status'=>'',//交易状态  
         ];    
  
-# 微信   
+# 微信支付   
 ## 用法  
 ### 支付
     $payModel = Pay::wechat()
