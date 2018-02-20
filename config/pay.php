@@ -12,7 +12,7 @@ return [
       'app_id' => "2018011301825418",
 
       //商户私钥，您的原始格式RSA私钥   请替换成自己的，本处key内容为空
-      'merchant_private_key' => file_get_contents("./key/app_private_key.pem"),
+      'merchant_private_key' => file_get_contents(dirname(__FILE__)."/key/zfb/app_private_key.pem"),
 
       //异步通知地址
       'notify_url' => "http://工程公网访问地址/alipay.trade.wap.pay-PHP-UTF-8/notify_url.php",
@@ -31,7 +31,7 @@ return [
 
       //支付宝公钥,查看地址：https://openhome.alipay.com/platform/keyManage.htm 对应APPID下的支付宝公钥。
       //请替换成自己的，本处key内容为空
-      'alipay_public_key' => file_get_contents("./key/zfb_public_key.pem"),
+      'alipay_public_key' => file_get_contents(dirname(__FILE__)."/key/zfb/zfb_public_key.pem"),
 
   ],
     'wechat'=>[
@@ -41,7 +41,7 @@ return [
         'mch_id'=>'1230000109',
         //签名加密key
         'key'=>'',
-        //支付完成跳转
+        //接收异步通知的地址
         'notify_url'=>''
     ]
 ];
