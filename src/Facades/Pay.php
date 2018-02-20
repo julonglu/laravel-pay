@@ -28,6 +28,6 @@ class Pay extends Facade
      */
     public static function wechat()
     {
-        return app('pay.wechat');
+        return app('pay.wechatpay');
     }
 }

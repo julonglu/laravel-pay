@@ -34,7 +34,7 @@ return [
       'alipay_public_key' => file_get_contents(dirname(__FILE__)."/key/zfb/zfb_public_key.pem"),
 
   ],
-    'wechat'=>[
+    'wechatpay'=>[
         //appid
         'appid'=>'wxd678efh567hg6787',
         //商户号
