@@ -35,9 +35,13 @@ return [
 
   ],
     'wechat'=>[
+        //appid
         'appid'=>'wxd678efh567hg6787',
+        //商户号
         'mch_id'=>'1230000109',
+        //签名加密key
         'key'=>'',
+        //支付完成跳转
         'notify_url'=>''
     ]
 ];
