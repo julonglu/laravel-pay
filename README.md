@@ -39,9 +39,9 @@
           'trade_status'=>'',//交易状态  
         ];    
  
-# 微信支付   
-## 用法  
-### 支付
+# wechatpay   
+## use  
+### pay
     $payModel = Pay::wechat()
                          ->setParam(
                           100,
@@ -63,6 +63,6 @@
      * @return $this
      */
      
-### 核验
+### check
     $out_trade_no = 201802212359;
     $payModel = Pay::wechat()->toCheck($out_trade_no);
